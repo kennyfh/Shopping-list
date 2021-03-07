@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title>Ejemplos javascript</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/MyList.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="cuerpo">
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md text-center">
+              <h3>Proyecto IISSI2: Lista de la Compra</h3>
+            </div>
+          </div>
+      
+          <hr>
+        <div class="row justify-content-center">
+            <div class="card">
+                <div class="card-header">
+                  
+                     <input id="itemToAdd" type="text" placeholder="Inserta un nuevo elemento" />
+                    <button id="addBtn" class="btn btn-info" disabled>Añadir</button>
+                </div>
+
+                <div class="card-body">
+                    <h3 class="card-title">Lista de la compra</h3>
+                </div>
+
+                <div class="card-body">
+                    <h4>Necesito</h4>
+                    <ul id="shoppingList" class="list-group list-group-flush">
+                        <!--Items will be added here -->
+                        <li id="uvus" class="list-group-item list-group-item-info">Kenflohua</li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h4>Comprados</h4>
+                    <ul id="removedList" class="list-group list-group-flush">
+                        <!--Removed items will be added here -->
+                    </ul>
+</body>
+
+</html>

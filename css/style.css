@@ -1,0 +1,12 @@
+#cuerpo{
+
+    background-color:#eee;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.card-header{
+    background-size: cover;
+    position: relative;
+    background-image: url("https://img.grouponcdn.com/deal/q7Rd1f4vgu5PNx4GQRhJrc/89468436-2048x1228.jpg");
+}
